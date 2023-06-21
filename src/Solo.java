@@ -3,7 +3,7 @@ import Semente.Semente;
 
 public class Solo {
     //Atributos
-    String Tipo Solo;
+    String Tipo_Solo;
     String cor;
     boolean fertil;
     //Metodo
