@@ -1,17 +1,41 @@
 public class Main {
-
     public static void main(String[] args) {
-    int contador = 0;
-    //laço de repetição
-        while(contador < 10) {
-            System.out.println("Contador = " + contador);
-            //incremento
-        contador = contador = 1;
-        }
+        // Aula introdutória de Orientação à Objetos
+        // Declaração de objeto
+        Pessoa adao;
+        // Instanciação do objeto
+        adao = new Pessoa();
+        // Ao mesmo tempo
+        Pessoa qualquer = new Pessoa();
+        // Definir formato do objeto
+        qualquer.nome = "Rita";
+        qualquer.sobrenome = "Lee";
+        // comportamento
+        qualquer.falar();
+        System.out.println(qualquer.falar("oi"));
+        // Criar novos objetos
+        // Declarar objeto
+        Pessoa rainha;
+        // Instanciar objetos
+        rainha = new Pessoa();
+        // Definir forma do objeto
+        rainha.nome = "Tina";
+        rainha.sobrenome = "Tunner";
+        // Definição do comportamento
+        rainha.falar();
+        rainha.comer();
 
-        //laço para faça
-        for(int x =0; x < 10; x++) {
-            System.out.println("Contador = " + x);
-        }
+        // Criar produtos
+        Produto p1 = new Produto(1300.00);
+        Produto p2 = new Produto();
+        p2.setPreco(233.00);
+        Produto = p3;
+        p3 = new Produto("Placa mãe",2500.00);
+
+
+        p2.setPreco(1.00);
+
+
+
     }
 }
